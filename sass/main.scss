@@ -2,6 +2,8 @@
 @import './utils/variables';
 @import './utils/v-hidden';
 @import './utils/backdrop-is-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
 
 
 // base styles
@@ -12,13 +14,14 @@
 @import './components/container.scss';
 @import './components/section';
 @import './components/section-titles';
+@import './components/buttons';
 @import './components/header';
 @import './components/logo';
 @import './components/header-nav';
 @import './components/header-contacts';
 @import './components/hero';
-@import './components/buttons';
 @import './components/features';
+@import './components/works-section';
 @import './components/works';
 @import './components/team';
 @import './components/members';
@@ -30,6 +33,7 @@
 @import './components/backdrop';
 @import './components/modal';
 @import './components/modal-form';
+@import './components/portfolio-section';
 @import './components/filter';
 @import './components/galery';
 @import './components/project-card';

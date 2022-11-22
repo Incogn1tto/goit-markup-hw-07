@@ -1,4 +1,5 @@
 .team {
+    @extend %section;
     background-color: var(--filter-btn-team-section-bg-color);
 
     text-align: center;

@@ -17,51 +17,53 @@
     color: var(--primary-color);
 
     text-decoration: none;
-    font-size: 14px;
-    line-height: 1.7;
+    @include fonts(14px, 24px);
 
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.contacts__address:hover,
-.contacts__address:focus {
-    color: var(--accent-color);
-}
+
 
 .contacts__mail {
     color: rgba(255, 255, 255, 0.6);
 
     text-decoration: none;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
+    @include fonts(14px, 24px);
 
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.contacts__mail:hover,
-.contacts__mail:focus {
-    color: var(--accent-color);
-}
+
 
 .contacts__mobile {
     color: rgba(255, 255, 255, 0.6);
 
     text-decoration: none;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
+    @include fonts(14px, 24px);
 
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.contacts__mobile:hover,
-.contacts__mobile:focus {
-    color: var(--accent-color);
-}

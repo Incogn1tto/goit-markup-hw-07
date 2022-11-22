@@ -4,8 +4,9 @@
     color: var(--primary-text-color);
 
     text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
 
+    @include fonts (36px, 42px, 700);
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.2;
 }

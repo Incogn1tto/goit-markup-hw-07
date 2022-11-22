@@ -29,11 +29,10 @@
 
 .project__overlay-txt {
     padding: 63px 24px;
-    text-align: left;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.55;
 
+    text-align: left;
+    @include fonts(18px, 28px);
+    
     color: var(--primary-color);
 }
 
@@ -41,26 +40,23 @@
     display: block;
 }
 
-
-.project__title {
-    color: var(--primary-text-color);
-
-    margin-bottom: 4px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-
-.project__name {
-    color: var(--secondary-additional-color);
-
-    font-size: 16px;
-    line-height: 1.9;
-}
-
 .project__descr {
     padding: 20px 24px;
 
     border: solid var(--primary-border-color) 1px;
 }
+
+.project__title {
+    color: var(--primary-text-color);
+
+    margin-bottom: 4px;
+
+    @include fonts(18px, 36px, 700, 0.06em);
+}
+
+.project__name {
+    color: var(--secondary-additional-color);
+
+    @include fonts(16px, 30px);
+}
+
